@@ -1,0 +1,5 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/ubuntu/manim/LearningManim/project/media/videos/Animations/480p15/partial_movie_files/AnimateExample/3163782288_961635700_476340714.mp4'
+file 'file:/home/ubuntu/manim/LearningManim/project/media/videos/Animations/480p15/partial_movie_files/AnimateExample/2201830969_1076466279_2950471220.mp4'
+file 'file:/home/ubuntu/manim/LearningManim/project/media/videos/Animations/480p15/partial_movie_files/AnimateExample/2201830969_3910239510_3331836817.mp4'
+file 'file:/home/ubuntu/manim/LearningManim/project/media/videos/Animations/480p15/partial_movie_files/AnimateExample/2201830969_1076466279_1960085500.mp4'
