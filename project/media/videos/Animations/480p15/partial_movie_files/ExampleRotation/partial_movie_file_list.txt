@@ -1,0 +1,2 @@
+# This file is used internally by FFMPEG.
+file 'file:/home/ubuntu/manim/LearningManim/project/media/videos/Animations/480p15/partial_movie_files/ExampleRotation/921711572_807081577_2422900464.mp4'
