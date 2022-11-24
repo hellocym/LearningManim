@@ -1,3 +1,4 @@
+import numpy as np
 from manim import *
 from manim.opengl import *
 from moderngl.program_members import Attribute
@@ -16,3 +17,20 @@ class OpenGLIntro(Scene):
             )
 
         self.play(FadeOut(tex))
+        surface = OpenGLSurface(
+            lambda u, v: (u, v, u*np.sin(v) + v*np.cos((u))),
+            u_range=(-3, 3),
+            v_range=(-3, 3)
+        )
+        surface_mesh = OpenGLSurfaceMesh(surface)
+        self.play(Create(surface_mesh))
+        self.play(FadeTransform(surface_mesh, surface))
+        self.wait()
+        light = self.camera.light_source
+        self.play(light.animate.shift([0, 0, -20]))
+        self.play(light.animate.shift([0, 0, 10]))
+        self.play(self.camera.animate.set_euler_angles(theta=60*DEGREES))
+        self.interactive_embed()
+
+
+class 
